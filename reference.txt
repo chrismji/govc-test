@@ -1,0 +1,6 @@
+- stock prices (historical stock prices?)
+- option prices, option beta -- option beta needs to be calculated, can't be grabbed from yfinance
+
+two components: updater and initial table creator
+- initial should read from a txt file of tickers (maybe one for stocks one for options?)
+- updater should read from column with tickers and update automatically
